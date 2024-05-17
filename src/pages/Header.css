@@ -1,0 +1,79 @@
+.row1 {
+    display: flex;
+    width: 100%;
+}
+.row1-left {
+    width: 40%;
+    text-align: end;
+    margin-left: -1%;
+    
+}
+.call-icon {
+    padding-top:1%;
+    display: flex;
+    justify-content: flex-end;
+    text-align: center; 
+
+}
+.call-icon .phone-icon {
+    color: white;
+}
+.row1-left .call-icon {
+    margin-right: 10%;
+}
+.row1-left a {
+    color: white;
+    text-decoration: none;
+}
+.row1-left .call-icon img{
+    color: white;
+    
+}
+.custom-header-top-nav-background {
+    background-color: #f79a82;
+    padding-right: 1.6%;
+    transform: skewX(-27deg);
+    height: 185%;
+    width: 96%;
+    
+    z-index: 0;
+    font-style: normal;
+    
+}
+
+.custom-header2 {
+    background-color:#f04c23;
+    height: 85%;
+   
+
+}
+.custom-header2 a{
+transform: skewx(25deg);
+}
+
+
+
+.row1-right {
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 0%;
+    
+}
+.row1-right ul li {
+    list-style: none;
+    font-size: .9rem;
+    font-weight: 500;
+}
+.social-icons {
+    width: 10%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.social-icons li a {
+    color: rgb(53, 53, 53);
+    font-size: 1.3rem;
+}
